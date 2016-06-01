@@ -4,7 +4,7 @@
 
 效果图:
 
-![Animation](image\ezgif-3276778685.gif)
+![](image/ezgif-3276778685.gif)
 
 主要难点:
 
