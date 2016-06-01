@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bluecup.hongyu.progressbar.MainActivity">
+
+    <com.bluecup.hongyu.library.HorizonProgressbarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#44ff0000"
+        android:padding="15dp"
+        android:progress="50"
+        app:progressbar_reach_color="#ffff0000"
+        app:progressbar_text_color="#ffff0000"
+        app:progressbar_unreach_color="#44ff0000" />
+
+    <com.bluecup.hongyu.library.HorizonProgressbarView
+        android:id="@+id/progress_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:progress="5"
+        app:progressbar_text_color="#44ff0000"
+        app:progressbar_text_size="12sp"
+        app:progressbar_unreach_color="#eee" />
+
+    <com.bluecup.hongyu.library.HorizonProgressbarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:progress="30"
+        app:progressbar_text_color="#44ff0000"
+        app:progressbar_unreach_color="#ffff0000" />
+
+    <com.bluecup.hongyu.library.RoundProgressbarWithProgress
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:progress="30"
+        app:progressbar_text_color="#ff000000"
+        app:progressbar_unreach_color="#ffff0000"
+        app:radius="20dp" />
+
+    <com.bluecup.hongyu.library.RoundProgressbarWithProgress
+        android:id="@+id/round_progressbar_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:progress="10"
+        app:progressbar_text_color="#ff000000"
+        app:progressbar_text_size="30sp"
+        app:progressbar_unreach_color="#44ff0000"
+        app:progressbar_reach_color="#ffff0000"
+        app:radius="60dp" />
+</LinearLayout>
